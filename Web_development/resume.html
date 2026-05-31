@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virappan Baralu | Responsive Resume</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS to refine Bootstrap defaults */
+        body {
+            background-color: #f4f6f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+        .resume-container {
+            max-width: 900px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        .header-section {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: #ffffff;
+            padding: 3rem 2rem;
+        }
+        .header-section h1 {
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #18bc9c;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+        .project-card {
+            background-color: #f8f9fa;
+            border-left: 4px solid #18bc9c;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 4px;
+        }
+        .badge-skill {
+            background-color: #e9ecef;
+            color: #495057;
+            font-weight: 500;
+            font-size: 0.9rem;
+            margin-right: 5px;
+            margin-bottom: 8px;
+            padding: 0.5em 0.75em;
+        }
+        .contact-link {
+            color: #18bc9c;
+            text-decoration: none;
+        }
+        .contact-link:hover {
+            color: #128f76;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container resume-container p-0">
+        <!-- Header Section -->
+        <header class="header-section text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="display-5">Virappan Baralu</h1>
+                    <h4 class="fw-light mb-3">CSE AI & ML Student & Full-Stack Developer</h4>
+                </div>
+                <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                    <p class="mb-1">📍 Mohali, India</p>
+                    <p class="mb-1">✉️ <a href="mailto:virappan@example.com" class="text-white text-decoration-none">virappan@example.com</a></p>
+                    <p class="mb-0">🔗 <a href="#" class="text-white text-decoration-none">github.com/virappan</a></p>
+                </div>
+            </div>
+        </header>
+
+        <div class="p-4 p-md-5">
+            <div class="row">
+                <!-- Left Column: Summary & Projects -->
+                <div class="col-lg-8 pe-lg-4">
+                    <!-- Profile Summary -->
+                    <section class="mb-5">
+                        <h2 class="section-title">Profile Summary</h2>
+                        <p>Detail-oriented Computer Science student with a strong foundation in Artificial Intelligence, Machine Learning, and full-stack web development. Passionate about building privacy-preserving intelligent systems and scalable MERN-stack applications. Proven ability to integrate advanced UI libraries and AI functionalities into highly responsive web platforms.</p>
+                    </section>
+
+                    <!-- Experience / Projects -->
+                    <section class="mb-5">
+                        <h2 class="section-title">Key Projects</h2>
+                        
+                        <div class="project-card">
+                            <h4 class="h5 fw-bold mb-1">Ionix v2 | AI-Powered Productivity Platform</h4>
+                            <p class="text-muted small mb-2">React, Node.js, Express, MongoDB</p>
+                            <p class="mb-0">Developed a comprehensive Single Page Application (SPA) featuring task management, secure code vaults, and integrated AI chat functionalities. Engineered dynamic routing and custom state management for seamless user experience.</p>
+                        </div>
+
+                        <div class="project-card">
+                            <h4 class="h5 fw-bold mb-1">Intelligent Expense Manager</h4>
+                            <p class="text-muted small mb-2">Fintech, AI, Socket.io</p>
+                            <p class="mb-0">Designed a multi-collaborator financial tracking application utilizing Socket.io for real-time updates and integrated AI for predictive expense insights and categorization.</p>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Right Column: Skills, Education, Certifications -->
+                <div class="col-lg-4">
+                    <!-- Skills -->
+                    <section class="mb-5">
+                        <h2 class="section-title">Technical Skills</h2>
+                        <div class="d-flex flex-wrap">
+                            <span class="badge badge-skill rounded-pill">MERN Stack</span>
+                            <span class="badge badge-skill rounded-pill">React & Next.js</span>
+                            <span class="badge badge-skill rounded-pill">Python</span>
+                            <span class="badge badge-skill rounded-pill">Federated Learning</span>
+                            <span class="badge badge-skill rounded-pill">Bootstrap 5</span>
+                            <span class="badge badge-skill rounded-pill">Git / GitHub</span>
+                            <span class="badge badge-skill rounded-pill">Docker</span>
+                        </div>
+                    </section>
+
+                    <!-- Education -->
+                    <section class="mb-5">
+                        <h2 class="section-title">Education</h2>
+                        <h5 class="fw-bold mb-1">B.E. Computer Science (AI & ML)</h5>
+                        <p class="mb-1">Chandigarh University, AIT-CSE</p>
+                        <p class="text-muted small">Mohali, India | Expected 2026</p>
+                    </section>
+
+                    <!-- Achievements -->
+                    <section class="mb-5">
+                        <h2 class="section-title">Achievements</h2>
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <strong>Machine Learning Certification</strong><br>
+                                <span class="text-muted small">MyCaptain</span>
+                            </li>
+                            <li class="mb-3">
+                                <strong>Participant</strong><br>
+                                <span class="text-muted small">Tata Imagination Challenge 2025</span>
+                            </li>
+                            <li class="mb-3">
+                                <strong>Participant</strong><br>
+                                <span class="text-muted small">Ideat-A-Thon</span>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
